@@ -1,0 +1,13 @@
+# Standards: 1.2
+---
+# @var ymuse_version:description: Version for the package
+# renovate: datasource=github-releases depName=yktoo/ymuse
+ymuse_version: 0.21
+
+# @var ymuse_arch:description: Architecture for the package
+ymuse_arch: amd64
+
+# @var ymuse_package:description: Download URL for the package to install
+ymuse_package: "https://github.com/yktoo/ymuse/releases/download/v{{ ymuse_version }}/ymuse_{{ ymuse_version }}_linux_{{ ymuse_arch }}.deb"
+
+...
